@@ -14,9 +14,9 @@ console.log('os.tmpdir():', os.tmpdir());
 
 console.log('cpu정보--------------------------')
 console.log('os.cpus():', os.cpus());
-console.log('os.cpus().length:', os.cpus().length);
+console.log('os.cpus().length:', os.cpus().length); // cpu코어 갯수.
 
-console.log('메모리 정보--------------------------')
+console.log('메모리 정보-------------------------')
 console.log('os.freemem():', os.freemem());
 console.log('os.totalmem():', os.totalmem());
 
