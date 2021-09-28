@@ -6,7 +6,7 @@ const iv = '1234567890123456'
 
 const cipher = crypto.createCipheriv(algorithm, key, iv);
 let result = cipher.update('암호화활 문장', 'utf8', 'base64');
-result += cipher.final('base64');
+result += cipher.final('base64'); //인코딩.
 console.log('암호화', result);
 
 const decipher = crypto.createDecipheriv(algorithm, key, iv);
